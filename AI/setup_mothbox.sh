@@ -17,7 +17,7 @@ echo "--- Installing Heavy Dependencies (this may take a while) ---"
 pip install ultralytics fiftyone gradio pybioclip torchvision torchaudio
 
 # 4. Install supporting libraries
-pip install pandas pillow matplotlib opencv-python
+pip install pandas pillow matplotlib opencv-python hdbscan piexif
 
 # 5. Initialize FiftyOne (Database for managing insect images)
 echo "--- Initializing Database ---"
